@@ -1,3 +1,8 @@
+<?php
+// Display current server time
+date_default_timezone_set('UTC');
+$serverTime = date('Y-m-d h:i A');
+?>
 <html lang="en">
 
 <head>
